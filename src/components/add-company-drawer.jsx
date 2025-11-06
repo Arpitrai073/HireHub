@@ -17,7 +17,7 @@ import {
   import { addNewCompany } from "@/api/apiCompanies";
   import { BarLoader } from "react-spinners";
   import { useEffect } from "react";
-  
+  //drawer
   const schema = z.object({
     name: z.string().min(1, { message: "Company name is required" }),
     logo: z
